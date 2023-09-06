@@ -6,7 +6,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Car Hub",
+  title: "AL Amir Cars",
   description: "Descover the best cars in the world",
 };
 
@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className="relative">
         <Navbar />
         {children}
-      <Footer />
+        <Footer />
       </body>
     </html>
   );

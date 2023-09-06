@@ -51,7 +51,7 @@ const CarCard = ({ car }: CarCardProps) => {
           </div>
         </div>
         <div className="flex group-hover:invisible w-full justify-between text-gray ">
-          <div className="flex flex-col justify-center items-center gap-2">
+          <div className="flex flex-col justify-center items-center gap-2 ml-4">
             <Image src="/tire.svg" width={20} height={20} alt="tire" />
             <p className="text-[14px]">{drive.toUpperCase()}</p>
           </div>

@@ -9,13 +9,16 @@ const Navbar = () => {
     <header className="w-full absolute z-10 pl-10 ">
       <nav className="max-w-[1440px] mx-auto flex justify-between items-center sm:px-16 px-6 py-4">
         <Link href="/" className="flex justify-center items-center ">
-          <Image
+          {/* <Image
             src="/logo.svg"
             alt="car hub "
             width={118}
             height={18}
             className="object-contain"
-          />
+          /> */}
+          <h2 className="lg:text-3xl font-bold sm:text-lg">
+            AL <span className="text-primary-blue ">Amir</span> Cars{" "}
+          </h2>
         </Link>
         <CustomButton
           title="sign in"
